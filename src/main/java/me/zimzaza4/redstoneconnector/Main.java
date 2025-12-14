@@ -1,6 +1,7 @@
 package me.zimzaza4.redstoneconnector;
 
-import com.sun.tools.javac.util.Names;
+import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
+import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
 import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import me.zimzaza4.redstoneconnector.remote.RemoteController;
 import me.zimzaza4.redstoneconnector.remote.RemoteExecuteBlock;
@@ -8,9 +9,6 @@ import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import io.github.thebusybiscuit.slimefun4.api.recipes.RecipeType;
-import io.github.thebusybiscuit.slimefun4.api.SlimefunAddon;
 
 import java.util.Locale;
 

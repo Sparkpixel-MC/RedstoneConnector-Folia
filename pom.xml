@@ -8,8 +8,8 @@
     <version>1.0.0</version>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -20,13 +20,21 @@
         </repository>
 
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+            <id>menthamc</id>
+            <url>https://repo.menthamc.org/repository/maven-public/</url>
         </repository>
 
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
+        </repository>
+
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/Sparkpixel-MC/Slimefun4-CN-Folia</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
     </repositories>
 
@@ -48,16 +56,16 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.17.1-R0.1-SNAPSHOT</version>
+            <groupId>me.earthme.luminol</groupId>
+            <artifactId>luminol-api</artifactId>
+            <version>1.21.8-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>com.github.SlimefunGuguProject</groupId>
-            <artifactId>Slimefun4</artifactId>
-            <version>b39097e015</version>
+            <groupId>com.github.slimefun</groupId>
+            <artifactId>slimefun</artifactId>
+            <version>4.1-SNAPSHOT</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
